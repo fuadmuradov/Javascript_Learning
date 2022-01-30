@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 90%;
+    height: 150px;
+}
+
+.wrapper{
+
+}
+
+.box{
+    display: inline-block;
+    width: 40%;
+    height: 800px;
+    border-left: 3px dashed rgb(136, 134, 134);
+    margin: 40px;
+}
+
+.box1{
+    display: inline-block;
+    width: 35%;
+    height: 800px;
+    border-left: 3px dashed rgb(136, 134, 134);
+    margin: 40px;
+}
+.header{
+    padding: 50px;
+    color: grey;
+}
+
+.morgan{
+   
+    font-size: 60px;
+    color: rgb(54, 51, 51);
+}
+
+.job{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.email{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.phone{
+    color: black;
+}
+
+.blue_h2{
+    color: rgb(12, 158, 202);
+margin: 10px 10px 5px;
+}
+
+.dark_grey{
+    color: rgb(75, 73, 73);
+    margin: 30px 15px 5px;
+}
+
+.grey_h4{
+    color: grey;
+    margin: 10px 15px 5px;
+}
+
+.lorem_p{
+    margin: 25px 15px 5px;
+    padding-right: 50px;
+}
+
+.lan{
+    margin-top: 35px;
+}
