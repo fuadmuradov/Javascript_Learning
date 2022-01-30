@@ -147,4 +147,106 @@
 // console.log(str.substring(12,15))
 // console.log(str.substr(12,15))
 
+//************************************* */
+
+// Constructor 
+
+// function Person(firstname, surname, age){
+//     this.firstname = firstname;
+//     this.surname = surname;
+//     this.age = age;
+//     this.getAge = function(){
+//       return this.age;
+//     }
+
+//     this.getFullname = function(){
+//         return `${this.firstname} ${this.surname}`
+//     }
+// }
+
+
+// let person =new Person("Lala", "Guliyeva", 25);
+
+// console.log(person)
+
+// let namee =  person.getFullname()
+
+// console.log(namee)
+
+// let user = {
+//     firstname: "Fuad",
+//     lastname: "Muradov",
+//     age: 22
+// }
+
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+
+// Object.defineProperty(user, "groupNo", {value: "F777", Writable: true});
+
+//  let user2 = Object.assign({}, user);
+//     let user3 = JSON.parse(JSON.stringify(user));
+//     user.firstname = "Orxan"
+//     console.log(user2);
+//     user3.firstname = "Orxan"
+//     console.log(user3);
+
+// console.log(user)
+// console.log(user2)
+
+// function Student(groupNo, groupType){
+//     this.groupType = groupType;
+//     this.groupNo =  groupNo;
+// } 
+
+// Student.prototype = new Person()
+
+// let stu = new Student("111", "F");
+// stu.firstname = "Fuad"
+// // Object.setPrototypeOf(stu, new Person("Fuad", "Muradov", 21));
+
+// let stu2 = new Student("222", "M");
+// stu2.firstname = "Murad"
+// // Object.setPrototypeOf(stu2, new Person("Oxan", "Qarayev", 22))
+
+// console.log(stu.firstname)
+// console.log(stu2.firstname)
+
+// class Person {
+//     constructor(firstname, surname, age){
+//         this.firstname = firstname;
+//         this.surname = surname;
+//         this.age = age;
+//     }
+
+//     getAge = function(){
+//         return this.age;
+//     }
+
+//     getFullName = function() {
+//         return `${this.firstname} ${this.surname}`
+//     }
+
+// }
+
+// let person = new Person("Fuad", "Muradov", 21);
+
+// console.log(person.firstname)
+// console.log(person.getAge())
+// console.log(person.getFullName())
+
+// class Student extends Person {
+//     constructor(firstname, surname, age, groupType, groupNo){
+//         super(firstname, surname, age)
+//         this.groupNo = groupNo
+//         this.groupType = groupType
+//     }
+// }
+
+// let stu = new Student("Muslum", "Aydinov", 23,"F", "123")
+
+// console.log(stu.getAge())
+// console.log(stu.groupType)
+
+
 
