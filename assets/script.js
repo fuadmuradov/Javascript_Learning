@@ -248,5 +248,167 @@
 // console.log(stu.getAge())
 // console.log(stu.groupType)
 
+//************************************************** */
+//Algorithms
+
+// Array.prototype.customArrSort = function(){
+//     let isSorted  = false;
+
+//     while(!isSorted){
+//             isSorted = true;
+
+//         for (let i = 0; i < this.length; i++) {
+//             if(this[i]>this[i+1]){
+//                 let next = this[i+1];
+//                 this[i+1] = this[i];
+//                 this[i] = next;
+//                 isSorted = false;
+//             }
+            
+//         }
+
+
+//     }
+//     return this;
+// }
+
+
+// Array.prototype.customArrSort = function(){
+// let isSorted = false;
+
+// while(!isSorted){
+// isSorted = true;
+
+// for (let i = 0; i < this.length; i++) {
+//     if(this[i+1]>this[i]){
+//         let next = this[i];
+//         this[i] = this[i+1];
+//         this[i+1] = next;
+//         isSorted = false;
+
+//     }
+    
+// }
+
+// }
+
+//     return this;
+// }
+// console.log(arr);
+// console.log(arr.customArrSort());
+
+// let arr = [9,5,11,-3,12,1,-1];
+
+//  let checker = function FindNumber(arr2, n){
+//  havenumber = false;
+//     for (let i = 0; i < arr2.length; i++) {
+//         if (arr2[i]==n) {havenumber = true;
+//         break;
+//         }
+//     }
+
+//     return havenumber;
+// }
+
+
+// console.log(checker([6,2,7,2,7,5,9,1], 8))
+
+// let arr3 = function EvenNumbers(array){
+//     let arra = [];
+//     for (let i = 0; i < array.length; i++) {
+//        if(array[i] % 2 == 0) arra.push(array[i]); 
+//     }
+
+//     return arra;
+// }
+
+// console.log(arr3([1,2,3,4,5,6,7,8,9]));
+
+//  let calculate = function calculator(a, b, cha){
+//     switch(cha){
+//         case '+':
+//             return a+b;
+//         case '-':
+//             return a-b;
+//         case '*':
+//             return a*b;
+//         case '/': 
+//             return a/b;
+//             default:
+//                 return "i dont calculate what do you want"
+//     }
+
+//  }
+
+// console.log(calculate(101,2,'#'));
+
+// let str = "Lorem Ipsum set amer Dolar"
+// let str2="";
+// for (let i = str.length-1; i >= 0; i--) {
+//      str2 += str[i]; 
+    
+// }
+
+// console.log(str2)
+// let myarr = str2.split(" ");
+// myarr.forEach(num => {
+//     console.log(num);   
+// })
+// let str3 = ""
+// for (let i = myarr.length-1; i >= 0; i--){
+//    str3 += myarr[i] + " ";
+     
+// }
+
+// console.log(str3)
+
+
+// class Calculator{
+
+//     constructor(a, b, c, d, e){
+//      this.a = a;
+//     this.b = b;
+//     this.c = c; 
+//     this.d = d;
+//     this.e = e;
+//     }
+
+
+//    plus = function () {
+//        this.a += this.b;
+//        console.log(this.a)
+
+//    } 
+
+       
+
+//    minus = function () {
+//     this.a -= this.c  
+//     console.log(this.a)
+//   }
+//    multiply = function () {
+//        this.a *= this.d
+//        console.log(this.a)
+//    }
+
+//    divide = function () {
+//       this.a /= this.e
+//       console.log(this.a)
+//    }
+//    result = function(){
+//     this.plus();
+//     this.minus();
+//     this.multiply();
+//     this.divide();
+//     return this.a;
+// }
+// }
+
+// let calculate = new Calculator(50, 6, 30, 3, 2)
+
+// console.log(calculate.result())
+
+//*************** */
+
 
 
