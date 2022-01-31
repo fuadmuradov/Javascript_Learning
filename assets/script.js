@@ -555,4 +555,66 @@
 // console.log(student)
 // console.log(student.getFullname());
 
+//********************************************************* */
+
+//Windows.navigator and Timout
+// window.navigator.geolocation.getCurrentPosition(
+//     (geolocation)=>{
+//     alert("check the console")
+//     console.log(geolocation)
+// }, 
+// ()=>{
+// alert("you didnt let the Browser access your location please try again")
+// })
+
+//Timeout(), SetInterval() with CallBack function
+// setTimeout(()=>{
+
+//     console.log("This message wrote after 4 second")
+
+// }, 4000);
+
+// setInterval(() => {
+//     console.log("this wrote after every 2 second")
+// }, 2000);
+
+//  let h4 = document.querySelector(".title");
+// console.log(heading)
+
+// let h4 = Array.from(document.getElementsByClassName("title"));
+
+// h4.forEach(element => {
+//     console.log(element)
+//     element
+// });
+
+// let span = document.createElement("span");
+// span.className = "article"
+// span.innerHTML = "<b> Murad Muradov </b>"
+//span.innerText = "<b> Murad Muradov </b>"
+
+// let container = document.querySelector(".container");
+
+//container.prepend(span)
+//let append = container.append(span)
+
+
+//AppendChild() Can be Return any Value
+// span.style.color = "blue"
+//let appendchild = container.appendChild(span)
+
+// console.log(appendchild);
+
+// console.log(h4)
+
+// let heading = document.querySelectorAll(".title");
+
+// heading.forEach(element => {
+//     //element.style
+//     element.setAttribute("style","color:red")
+// });
+
+// let input = document.querySelector(".input-txt")
+// let error = document.querySelector("er-Msg")
+// let button = document.querySelector("btn-Submit")
 
