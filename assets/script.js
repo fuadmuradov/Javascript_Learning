@@ -410,5 +410,149 @@
 
 //*************** */
 
+// let arr = [1,0,"", "okay", null]
+// console.log(arr);
+
+
+
+// let object_key = "username"
+
+// let obj =
+//  {
+// Name: "Fuad",
+// Surname: "Muradov",
+// Age: 22,
+// [object_key]: "mrd",
+
+// getinfo: function(){  
+//     return  `${this.Name} ${this.Surname}`
+// }
+
+
+// }
+
+// console.log(object_key);
+
+
+
+ //console.log(obj.getinfo());
+
+
+
+// console.log(obj.username);
+
+// let anonymtest = function(){
+//     console.log("Orxan Qarayev")
+// }
+
+// anonymtest();
+
+
+// let object = {
+//     firstname: "Huseyn",
+//     lastname: "Bagirov",
+//     age: 25
+// }
+
+// console.log(Object.keys(object))
+// console.log(Object.values(object))
+// console.log(Object.entries(object)[0][0])
+
+// Object.defineProperty(object, "groupNo", {value:"F225", writable: false})
+
+// object.groupNo = "P223"
+
+// console.log(object)
+
+
+
+//************************************************ */
+//Copy Object
+
+// let object2 = object;
+
+//  object2.firstname = "Meherrem"
+
+//  console.log(object)
+//  console.log(object2)
+
+// let object2 = Object.assign({}, object)
+
+// object2.firstname = "Meherrem"
+
+
+//console.log(object2)
+
+// let object3 = {...object}
+// console.log(object3);
+
+// let object4 =JSON.parse(JSON.stringify(object))
+// console.log(object4.firstname)
+//**************************** */
+// Prototype(Inheritance)
+
+// function Person(firstname, lastname, age){
+// this.firstname = firstname,
+// this.lastname = lastname,
+// this.age = age
+// }
+
+// let person = new Person("Rufet", "Mezemov", 22);
+
+
+// console.log(person)
+
+// function Student(groupType, groupNo){
+//     this.groupType = groupType,
+//     this.groupNo = groupNo
+// }
+
+
+//Student.prototype = new Person("Uill", "Smitt", 22);
+
+// let student = new Student("F", "225");
+
+// Object.setPrototypeOf(student, new Person("Uill", "Smitt", 22));
+
+// let student2 = new Student("S","21");
+
+// console.log(student)
+// console.log(student2)
+
+//***************************** */
+
+// class Person
+// {
+// constructor(firstname, lastname, age)
+// {
+//     this.firstname = firstname,
+//     this.lastname = lastname,
+//     this.age = age
+// }
+
+// getAge = function() {
+//     return this.age;
+// }
+
+// getFullname = function() {
+//     return `${this.firstname} ${this.lastname}`
+// }
+
+// }
+
+// class Student extends Person
+// {
+//     constructor(groupType, groupNo,firstname,lastname, age)
+//     {
+//         super(firstname, lastname, age),
+//         this.groupType = groupType,
+//         this.groupNo = groupNo
+//     }
+// }
+
+// let student = new Student("F","225", "Fuad", "Muradov", 22)
+
+// console.log(student)
+// console.log(student.getFullname());
 
 
