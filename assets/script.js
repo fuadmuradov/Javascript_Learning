@@ -618,3 +618,45 @@
 // let error = document.querySelector("er-Msg")
 // let button = document.querySelector("btn-Submit")
 
+//******************************************** */
+// console.log(h4)
+//  let heading = document.querySelectorAll(".title");
+
+// console.log(heading)
+
+
+// for(let i=0; i< heading.length; i++){
+//     heading[i].style.color = "red";
+// }
+  
+//  heading.forEach((e)=>{e.style.color = "yellow"})
+
+//  let cont = document.querySelector(".titler")
+// cont.style.background = "red";
+//  console.log(cont)
+
+
+// heading.forEach(element => {
+//     //element.style
+//     element.setAttribute("style","color:red")
+// });
+
+//  let input = document.querySelector(".input-txt")
+
+
+// input.classList.add("txt2")
+
+// let btn = document.querySelector(".btn-Submit");
+
+// input.value = "Fuadd"
+// console.log(input)
+// console.log(btn)
+
+// btn.onclick = function(){
+//     if(input.value == "Fuad"){
+//         alert("You are Right")
+//     }
+//     else{
+//         alert("you doesnt right")
+//     }
+//}
