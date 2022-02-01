@@ -660,3 +660,98 @@
 //         alert("you doesnt right")
 //     }
 //}
+
+
+//************************************************ */
+//Task onclick method
+// let submit = document.querySelector(".submit");
+// let nname  = document.querySelector(".name")
+// let surname = document.querySelector(".surname")
+// let email = document.querySelector(".email")
+// let password = document.querySelector(".password")
+// let rpassword = document.querySelector(".rpassword")
+
+// nname.value="fuad muradov";
+
+// console.log(submit)
+// console.log(nname);
+// console.log(surname)
+// console.log(email)
+// console.log(password)
+// console.log(rpassword)
+// console.log(nname.value.length)
+
+
+// submit.onclick = function(){
+// if(nname.value=="")
+// alert("import your name")
+// else
+// if(surname.value==""){
+//     alert("import yor Surname")
+// }
+// else
+//     if(email.value==""){
+//         alert("import yor Email")
+//     }  
+// else
+
+//     if(password.value=="")
+//     alert("write password")
+
+// else
+// if(password.value.length<8){
+//     alert("password length mast be at least 8 character")
+// }
+// else
+//     if(rpassword.value==""){
+//     alert("fill Repeat password")
+//     }
+// else
+
+//     if(password.value!=rpassword.value)
+//     {
+//         alert("password not matches Repeat Password")
+//     }
+//     else
+//     {
+//         location.replace("file:///C:/Users/fuadm/OneDrive/Desktop/Visual%20Studio%20Code/JavaScript/index2.html")
+//     }
+
+    
+// }
+
+
+// let a = document.querySelector("a[href]");
+
+// let btn = document.querySelector(".yt")
+
+// let aAtribute = a.getAttribute("href")
+
+// console.log(a)
+// console.log(btn)
+// console.log(aAtribute)
+
+// btn.onclick = function(){
+//     a.innerHTML = "Youtube";
+//     a.setAttribute("href", "https://www.youtube.com")
+// }
+
+//*********************************************** */'
+//change box colors 
+// let buttons = document.querySelectorAll(".btn");
+// let divs = document.querySelectorAll(".box");
+
+// console.log(buttons)
+
+// buttons.forEach(btn=>{
+// btn.onclick = function(){
+//     let btnid= btn.getAttribute("data-id")
+//     let divid=document.getElementById(btnid)
+//      divid.style.background = btn.textContent
+    // divs.forEach(div=>{
+    //     div.style.background = btn.textContent
+    // })
+// }
+
+// })
+
