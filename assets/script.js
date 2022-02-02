@@ -755,3 +755,110 @@
 
 // })
 
+//**************************************************************** */
+
+//Object events
+
+// let button = document.querySelector(".btn")
+
+// window.onscroll = function(){
+//     console.log(scrollX)
+//     console.log(scrollY)
+// }
+
+
+// window.onclick = function(e){
+//     console.log(e.scrollX)
+//     console.log(e)
+  
+// }
+
+// button.onclick=function(e){
+//     console.log(e)
+// }
+
+// button.onclick = function(){
+//     console.log("first")
+// }
+
+// button.onclick = function(){
+
+//     console.log("second")
+// }
+
+// button.onclick = function(){
+
+//     console.log("third")
+// }
+
+// button.addEventListener("click", ()=>{
+//     console.log("first")
+// })
+
+// button.addEventListener("click", ()=>{
+//     console.log("second")
+// })
+
+// button.addEventListener("click", ()=>{
+//     console.log("third")
+// })
+
+// button.ondblclick = function(){
+//         button.style.background = "red"
+// }
+
+// button.addEventListener("mouseover", ()=>{
+//     console.log("over")
+// })
+
+// button.addEventListener("mouseout", ()=>{
+//     console.log("mouse leave")
+// })
+
+// button.addEventListener("mousemove", ()=>{
+//     console.log("move");
+// })
+
+
+// button.addEventListener("click", ()=>{
+//     console.log("click")
+// })
+
+// button.addEventListener("mouseup", ()=>{
+//     console.log("up")
+// })
+
+// button.addEventListener("mousedown", ()=>{
+//     console.log("down")
+// })
+
+
+// window.addEventListener("contextmenu", (e)=>{
+//     e.preventDefault()
+//     console.log("menu")
+// })
+
+//************************************************************** */
+//open contextmenu click on window
+// let listbox 
+// window.addEventListener("contextmenu", (e)=>{
+//     e.preventDefault()
+//     console.log(e.clientX, e.clientY)
+//     listbox ? listbox.style.background = "transparent" : null;
+//     let element = document.createElement("div");
+//     console.log(element)
+// element.style.width = "150px"
+// element.style.height = "220px"
+// element.style.backgroundColor = "Green"
+// element.style.position = "absolute"
+//     element.style.top = `${e.clientY}px`
+//     element.style.left = `${e.clientX}px`
+//     listbox = element
+//    document.body.appendChild(element)
+// })
+
+// not Permission to copy 
+// document.body.oncopy= function(e){
+// e.preventDefault();
+// alert("you cannot Copy this Page")
+// }
